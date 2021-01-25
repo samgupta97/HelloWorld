@@ -1,0 +1,26 @@
+
+
+<form className="uk-form contact-form" method="POST" action="LINK TO FORM" onsubmit="return window.submitGoogleForm(this);" >
+    // got the action link by doing inspect element on form page
+    <div className="uk-grid" data-uk-grid-margin="">
+        <div className="uk-width-medium-1-2 uk-row-first">
+            <div className="form-field">
+                <input type="text" placeholder="Your Name" name="entry.529281403" required="" />
+            </div>
+            <div className="form-field">
+                <input type="email" name="emailAddress" placeholder="Email Address" required="" />
+            </div>
+            <div className="form-field">
+                <input type="text" name="entry.550890690" placeholder="Subject" />
+            </div>
+        </div>
+        <div className="uk-width-medium-1-2">
+            <div className="form-field">
+                <textarea placeholder="Your Message Here" name="entry.699777486" rows="9" required></textarea>
+            </div>
+        </div>
+    </div>
+    <div className="form-button mt30">
+        <button className="readon pill" >Send</button>
+    </div>
+</form>
